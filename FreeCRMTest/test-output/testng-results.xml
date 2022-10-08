@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-08T11:05:04 EDT" name="FREE CRM Application Test Automation Test Suite" finished-at="2022-10-08T11:08:40 EDT" duration-ms="216826">
+    <groups>
+    </groups>
+    <test started-at="2022-10-08T11:05:04 EDT" name="FREE CRM Application Test Cases" finished-at="2022-10-08T11:08:40 EDT" duration-ms="216826">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:21 EDT" name="setUp" finished-at="2022-10-08T11:05:28 EDT" duration-ms="6790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:28 EDT" name="verifyHomePageTitle" finished-at="2022-10-08T11:05:28 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:28 EDT" name="tearDown" finished-at="2022-10-08T11:05:29 EDT" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:29 EDT" name="setUp" finished-at="2022-10-08T11:05:35 EDT" duration-ms="6599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserNameTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:35 EDT" name="verifyUserNameTest" finished-at="2022-10-08T11:05:37 EDT" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:37 EDT" name="tearDown" finished-at="2022-10-08T11:05:38 EDT" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:38 EDT" name="setUp" finished-at="2022-10-08T11:05:45 EDT" duration-ms="6541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsLinkTest()[pri:3, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:45 EDT" name="verifyContactsLinkTest" finished-at="2022-10-08T11:05:47 EDT" duration-ms="1941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:47 EDT" name="tearDown" finished-at="2022-10-08T11:05:48 EDT" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:48 EDT" name="setUp" finished-at="2022-10-08T11:05:54 EDT" duration-ms="6555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDealsLinkTest()[pri:4, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:54 EDT" name="verifyDealsLinkTest" finished-at="2022-10-08T11:05:56 EDT" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDealsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3e27aa33]" started-at="2022-10-08T11:05:56 EDT" name="tearDown" finished-at="2022-10-08T11:05:57 EDT" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:05:58 EDT" name="setUp" finished-at="2022-10-08T11:06:07 EDT" duration-ms="8827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:06:07 EDT" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2022-10-08T11:06:24 EDT" duration-ms="17486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tom@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CEO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:06:24 EDT" name="tearDown" finished-at="2022-10-08T11:06:25 EDT" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:06:25 EDT" name="setUp" finished-at="2022-10-08T11:06:34 EDT" duration-ms="8425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:06:34 EDT" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2022-10-08T11:06:52 EDT" duration-ms="18266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smart]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dsmart@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:06:52 EDT" name="tearDown" finished-at="2022-10-08T11:06:53 EDT" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:06:53 EDT" name="setUp" finished-at="2022-10-08T11:07:01 EDT" duration-ms="8520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:07:01 EDT" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2022-10-08T11:07:20 EDT" duration-ms="18110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khalifa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[skhalifa@sabb.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CFO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:07:20 EDT" name="tearDown" finished-at="2022-10-08T11:07:20 EDT" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:07:20 EDT" name="setUp" finished-at="2022-10-08T11:07:29 EDT" duration-ms="8561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:07:29 EDT" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2022-10-08T11:07:49 EDT" duration-ms="20038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nasser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AlDawsari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ndwssari@sabb.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Project Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:07:49 EDT" name="tearDown" finished-at="2022-10-08T11:07:50 EDT" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:07:50 EDT" name="setUp" finished-at="2022-10-08T11:07:58 EDT" duration-ms="8448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:07:58 EDT" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2022-10-08T11:08:00 EDT" duration-ms="2079" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vinod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Supervisor]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="ui mini basic icon button">...</button> is not clickable at point (118, 159). Other element would receive the click: <a class="item active" href="/contacts" aria-current="page">...</a>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-NKT0NVMG', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3738f1b85f618658e5387fafaf80e552, clickElement {id=7e32a8a8-95bc-440b-b55a-ff9563c9c08e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ajith\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59859/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3738f1b85f618658e5387fafaf80e552)] -> xpath: //div[@id='main-nav']/div[3]/button[1]]
+Session ID: 3738f1b85f618658e5387fafaf80e552]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="ui mini basic icon button">...</button> is not clickable at point (118, 159). Other element would receive the click: <a class="item active" href="/contacts" aria-current="page">...</a>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-NKT0NVMG', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3738f1b85f618658e5387fafaf80e552, clickElement {id=7e32a8a8-95bc-440b-b55a-ff9563c9c08e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ajith\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59859/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3738f1b85f618658e5387fafaf80e552)] -> xpath: //div[@id='main-nav']/div[3]/button[1]]
+Session ID: 3738f1b85f618658e5387fafaf80e552
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+at com.sun.proxy.$Proxy20.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy19.click(Unknown Source)
+at com.crm.qa.pages.HomePage.clickOnNewContactLink(HomePage.java:51)
+at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:08:00 EDT" name="tearDown" finished-at="2022-10-08T11:08:01 EDT" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:08:01 EDT" name="setUp" finished-at="2022-10-08T11:08:10 EDT" duration-ms="8402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:08:10 EDT" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2022-10-08T11:08:12 EDT" duration-ms="1978" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jiju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Daniel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jdan@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Supervisor]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="ui mini basic icon button">...</button> is not clickable at point (166, 159). Other element would receive the click: <div class="menu-item-wrapper">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-NKT0NVMG', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [247df8e8b3e9a5c05012ae26ac4d8b49, clickElement {id=7a36da7a-afbf-4c00-aecf-328ea666d622}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ajith\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59890/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (247df8e8b3e9a5c05012ae26ac4d8b49)] -> xpath: //div[@id='main-nav']/div[3]/button[1]]
+Session ID: 247df8e8b3e9a5c05012ae26ac4d8b49]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="ui mini basic icon button">...</button> is not clickable at point (166, 159). Other element would receive the click: <div class="menu-item-wrapper">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-NKT0NVMG', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [247df8e8b3e9a5c05012ae26ac4d8b49, clickElement {id=7a36da7a-afbf-4c00-aecf-328ea666d622}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ajith\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59890/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (247df8e8b3e9a5c05012ae26ac4d8b49)] -> xpath: //div[@id='main-nav']/div[3]/button[1]]
+Session ID: 247df8e8b3e9a5c05012ae26ac4d8b49
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+at com.sun.proxy.$Proxy20.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy19.click(Unknown Source)
+at com.crm.qa.pages.HomePage.clickOnNewContactLink(HomePage.java:51)
+at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:08:12 EDT" name="tearDown" finished-at="2022-10-08T11:08:12 EDT" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:08:12 EDT" name="setUp" finished-at="2022-10-08T11:08:21 EDT" duration-ms="8372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:08:21 EDT" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2022-10-08T11:08:40 EDT" duration-ms="18766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A.thomas@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@2e385cce]" started-at="2022-10-08T11:08:40 EDT" name="tearDown" finished-at="2022-10-08T11:08:40 EDT" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3f6f6701]" started-at="2022-10-08T11:05:04 EDT" name="setUp" finished-at="2022-10-08T11:05:12 EDT" duration-ms="8171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@3f6f6701]" started-at="2022-10-08T11:05:12 EDT" name="loginPageTitleTest" finished-at="2022-10-08T11:05:12 EDT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3f6f6701]" started-at="2022-10-08T11:05:12 EDT" name="tearDown" finished-at="2022-10-08T11:05:13 EDT" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3f6f6701]" started-at="2022-10-08T11:05:13 EDT" name="setUp" finished-at="2022-10-08T11:05:16 EDT" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@3f6f6701]" started-at="2022-10-08T11:05:16 EDT" name="loginTest" finished-at="2022-10-08T11:05:20 EDT" duration-ms="4843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3f6f6701]" started-at="2022-10-08T11:05:20 EDT" name="tearDown" finished-at="2022-10-08T11:05:21 EDT" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- FREE CRM Application Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>
